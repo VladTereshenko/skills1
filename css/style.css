@@ -1,0 +1,112 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #E2E7EC;
+	color: #000;
+	margin-top: 90px;
+	
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+}
+
+ @font-face {
+    font-family: HansKendrick;
+    src: url(../fonts/HansKendrick-Regular.otf);
+       }
+
+
+header, .block {
+	display: flex;
+	justify-content: center;
+}
+
+.container, .news {
+	width: 1120px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.block {
+	margin-top: 20px;
+}
+
+p {
+	text-transform: uppercase;
+	font-size: ;
+}
+
+h2 {
+	text-transform: uppercase;
+	font-size: ;
+}
+
+.news__items {
+	height: 540px;
+	width: 360px;
+	background-color: #fff;
+}
+
+.offer {
+	margin: 30px 0 0 30px;
+
+}
+
+.offer p {
+	font-family: HansKendrick;
+	font-size: 14px;
+	opacity: 0.5;
+}
+
+.offer h2 {
+	margin-top: 20px;
+	font-family: HansKendrick;
+	font-size: 22px;
+}
+
+.offer img {
+	margin-top: 50px;
+	
+}
+
+
+
+.preloader {
+	text-align: center;
+	margin-top: 80px;
+	
+}
+
+.first {
+	position: relative;
+	width: 100%;
+
+}
+
+.first img {
+	position: absolute;
+	 top: 0; 
+	 left: 0; 
+
+}
+
+.wrap {
+	position: absolute;
+	margin: 400px 0 40px 45px;
+	font-family: HansKendrick;
+	color: #fff;
+}
+
+
+.wrap p {
+	font-size: 14px;
+	opacity: 0.5;
+}
+
+.wrap h2 {
+	margin-top: 20px;
+	font-size: 22px;
+
+}
